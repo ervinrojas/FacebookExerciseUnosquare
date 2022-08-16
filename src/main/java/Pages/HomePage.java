@@ -1,19 +1,15 @@
 package Pages;
 
 import Base.Setup;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.junit.Assert;
 import Locators.Identifiers;
-import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePage {
 
     public static void main(String[] args){
-        HomePage program = new HomePage();
         Identifiers locators = new Identifiers();
         Setup setup = new Setup();
         setup.driver = setup.CreateDriver();
