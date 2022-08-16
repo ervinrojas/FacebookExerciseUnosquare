@@ -12,7 +12,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePage {
 
-
     public static void main(String[] args){
         HomePage program = new HomePage();
         Identifiers locators = new Identifiers();
